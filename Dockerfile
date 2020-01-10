@@ -1,4 +1,4 @@
-FROM utwentefmt/tool-server:v1.0.0
+FROM utwentefmt/tool-server:v1.0.1
 
 RUN apt-get -q update && \
     apt-get -qy install wget openjdk-8-jre-headless clang && \
