@@ -9,7 +9,7 @@ exports.getProcess = function getProcess(arguments, rootPath, files) {
 
   return {
     command: 'vercors',
-    args: ['--silicon'].concat(absoluteFiles).concat(['--progress']),
+    args: absoluteFiles.concat(['--progress']),
     options: {}
   };
 }
